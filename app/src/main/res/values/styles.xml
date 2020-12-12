@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertDialog.AppCompat" parent="@style/Base.AlertDialog.AppCompat" />
+    <style name="AlertDialog.AppCompat.Light" parent="@style/Base.AlertDialog.AppCompat.Light" />
+    <style name="AlertDialogCustom" parent="@style/Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/whiteLight1</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="colorAccent">@color/whiteLight2</item>
+    </style>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.DayNight">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorAccent">#ff4461d6</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">#ff4461d6</item>
+    </style>
+
+</resources>

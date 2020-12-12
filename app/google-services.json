@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1066342935437",
+    "firebase_url": "https://alphareader-3c341.firebaseio.com",
+    "project_id": "alphareader-3c341",
+    "storage_bucket": "alphareader-3c341.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066342935437:android:f3a6da5349292d34402bc4",
+        "android_client_info": {
+          "package_name": "com.example.fahim.alphareader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066342935437-0jofqij8d5h38r6fsenkbsb3olh7n2di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnsZrblfB7Rj131GKqatwTdV4idTIHnHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066342935437-0jofqij8d5h38r6fsenkbsb3olh7n2di.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

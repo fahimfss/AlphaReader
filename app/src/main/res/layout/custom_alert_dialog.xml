@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20.0dip"
+    android:paddingTop="50.0dip"
+    android:paddingRight="20.0dip">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5.0">
+
+        <Button
+            android:id="@+id/font_dec"
+            android:layout_width="0.0dip"
+            android:layout_height="50.0dip"
+            android:layout_weight="1.0"
+            android:backgroundTint="@color/colorAccent"
+            android:text="-"
+            android:textColor="@color/whiteLight1"
+            android:textSize="25.0sp" />
+
+        <TextView
+            android:id="@+id/font_tv"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textColor="@color/textblue"
+            android:textSize="16.0sp" />
+
+        <Button
+            android:id="@+id/font_inc"
+            android:layout_width="0.0dip"
+            android:layout_height="50.0dip"
+            android:layout_weight="1.0"
+            android:backgroundTint="@color/colorAccent"
+            android:text="+"
+            android:textColor="@color/whiteLight1"
+            android:textSize="25.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5.0">
+
+        <ImageButton
+            android:id="@+id/theme_white"
+            android:layout_width="0.0dip"
+            android:layout_height="50.0dip"
+            android:layout_weight="1.0"
+            android:backgroundTint="@color/colorAccent"
+            android:scaleType="centerInside"
+            android:src="@drawable/sun" />
+
+        <ImageButton
+            android:id="@+id/theme_cloudy"
+            android:layout_width="0.0dip"
+            android:layout_height="50.0dip"
+            android:layout_weight="1.0"
+            android:backgroundTint="@color/colorAccent"
+            android:padding="10.0dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/cloud" />
+
+        <ImageButton
+            android:id="@+id/theme_black"
+            android:layout_width="0.0dip"
+            android:layout_height="50.0dip"
+            android:layout_weight="1.0"
+            android:backgroundTint="@color/colorAccent"
+            android:scaleType="centerInside"
+            android:src="@drawable/moon" />
+    </LinearLayout>
+</LinearLayout>

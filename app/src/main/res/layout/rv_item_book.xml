@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bookItemCard"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2.0dip"
+    android:clickable="true"
+    app:cardCornerRadius="3.0dip"
+    app:cardElevation="2.0dip"
+    app:contentPadding="6.0dip">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100.0">
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="92.0"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bookName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="2"
+                android:padding="3.0dip"
+                android:textColor="@color/whiteLight1"
+                android:textSize="18.0sp" />
+
+            <TextView
+                android:id="@+id/bookChapters"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="3.0dip"
+                android:textColor="@color/whiteLight2"
+                android:textSize="12.0sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@id/moreBtn"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="8.0"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingLeft="5.0dip"
+            android:paddingTop="10.0dip"
+            android:paddingRight="5.0dip"
+            android:paddingBottom="10.0dip"
+            android:src="@drawable/more" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
